@@ -21,7 +21,7 @@ body{
     display: flex;
     padding: 20px 40px;
     justify-content: space-between;
-    background-color: #03A03F;
+    background-color: #349D57;
     align-items: center;
 
 }
@@ -39,7 +39,7 @@ body{
 }
 footer{
     padding: 20px;
-    background-color: #03A03F;
+    background-color: #349D57;
     color: white;
     text-align: center;
     margin-top: auto;

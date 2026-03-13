@@ -1,0 +1,22 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+html{
+    font-size: 62.5%;
+}
+form{
+    background-color:#1D5831 ;
+    color: white;
+    padding: 30px;
+    width: 80rem;
+    width: 90%;
+     margin: 1rem auto;
+}
+fieldset{
+    margin-bottom: 1rem;}
+textarea{
+    height: 10px;
+    min-height: 600px;
+    resize:vertical;
+   
+}
