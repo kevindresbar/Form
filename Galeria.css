@@ -1,0 +1,38 @@
+*{/* Reseteo básico para quitar espacios por defecto del navegador */
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+html{
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
+}
+body{
+    background-color: #0E391A;
+}
+.Gal{
+    text-transform: uppercase; /*MAYUSCULA */
+    text-align: center;  /*alineacion central */
+    font-family:monospace /*tipografia */;
+    color: whitesmoke;
+    text-shadow: 0px 0px 80px rgb(135, 228, 160) ;
+    font-size: 60px;
+}
+.Galeria{
+     display: flex;
+    gap: 20px; /* espacio entre imganes */
+    flex-wrap: wrap;/*hac que que la imagen se scomode al contexto de la caja */
+    margin: 2rem auto;
+    justify-content: center;
+}
+.G_img img{
+    width: 600px; /*ajusta tamaño imagen*/
+    height: 600px; /*ajusta tamaño imagen*/
+  object-fit: cover;/*Permite uqe la imagen se ajsute y no se apeyisque*/
+  border: 6px solid #d2f2db; /*Borde, tipo de borde y color*/
+  transition: .9s;
+}
+img:hover{
+    box-shadow: 0px 0px 50px rgb(135, 228, 160) ;/* brillo */
+    transform: scale(1.05) rotate(90deg);/* Se agranda y grira los grados */
+  
+    
+}
