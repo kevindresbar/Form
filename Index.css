@@ -1,0 +1,31 @@
+*{/* Reseteo básico para quitar espacios por defecto del navegador */
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+html{
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
+}
+h1 {
+    text-align: center;
+    color: rgb(158, 241, 160);
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}/* alineacion, color, tamaño,  margen cental */
+article {
+    background-color: #51a56d; /*  */
+    color: rgb(0, 0, 0);
+    padding: 20px;  /* Espacio interno */
+    margin-bottom: 10px;  /* Espacio entre una cajita y la otra */
+    border: 2px solid #297A44; /* Borde*/
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+article h2 {
+    color: #85D6A0;     
+    margin-bottom: 10px; /* Espacio debajo del título */
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+article p {
+    font-size: 3rem;
+    line-height: 1.5;/* Para que las líneas de texto no estén tan pegadas */
+}
