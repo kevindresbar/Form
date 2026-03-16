@@ -5,6 +5,9 @@ box-sizing: border-box;}
 html{
     font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
 }
+main{
+    margin: 60px; /* margen generla */
+}
 h1 {
     text-align: center;
     color: rgb(158, 241, 160);
@@ -18,12 +21,13 @@ article {
     margin-bottom: 10px;  /* Espacio entre una cajita y la otra */
     border: 2px solid #297A44; /* Borde*/
     border-radius: 10px; /* Esquinas redondeadas */
+
 }
 article h2 {
     color: #85D6A0;     
     margin-bottom: 10px; /* Espacio debajo del título */
-    text-transform: uppercase;
-    font-size: 4rem;
+    text-transform: uppercase;/* mayuscula */
+    font-size: 4rem;  /* tamaño */
 }
 article p {
     font-size: 3rem;
