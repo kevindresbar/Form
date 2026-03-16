@@ -1,22 +1,66 @@
-*{margin: 0px;
+*{/* Reseteo básico para quitar espacios por defecto del navegador */
+    margin: 0px;
 padding: 0px;
 box-sizing: border-box;}
 html{
-    font-size: 62.5%;
+    font-size: 62.5%; /* Facilita el uso de rem (1rem = 10px) */
 }
 form{
+    /* color, tamaño  */
     background-color:#1D5831 ;
     color: white;
-    padding: 30px;
+    padding: 30px;/*es el espacio interno. Evita que el texto y los cuadros toquen los bordes del formulario */
     width: 80rem;
-    width: 90%;
-     margin: 1rem auto;
+    margin: 2rem auto; /* Centra el formulario en la pantalla */
+    border-radius: 8px;  /* Bordes edondeados*/
+    font-size: 1.6rem;
 }
 fieldset{
-    margin-bottom: 1rem;}
+    /* margen entre los cuadros internos */
+    margin-bottom: 1rem;
+    padding: 1.5rem; /* mas margen para que el texto no este tan pegado al borde */
+    border: 0.1rem dashed  #85D6A0; /* borde   grosor, tipo de borde y colorrr */
+}
+h1{
+    text-align: center; /* Centra el titulo */
+    font-size: 3rem; /* Tasmaño titulo */
+    margin-bottom: 2rem;/* Centra el titulouwu */
+}
+
+legend {
+    font-size: 1.6rem;
+    /* margen cuadritos internos y centra la letra de los legend */
+    text-align: center;
+}
+input, textarea {
+    background-color:#297A44;
+    color: white;
+    border: none;
+    display: block;/* hace que tenga cada fila cada item */
+    padding: 1rem;
+    border-radius: 6px; /* bordes de los recuadros mas redonditos */
+    font-size: 1.4rem; /* Tamaño letra */
+
+}
+input {
+    width: 100%;
+    margin: 0.5rem 1rem 1.5rem 0;  /* arriba derecha abajo izquierda */
+}
 textarea{
+
+    width: 100%; /* hace que el tamaño se ajuste a la margen que tiene y el recuadro completo */
     height: 10px;
-    min-height: 600px;
+    min-height: 60px;
+    max-block-size: 100px;/* solo deja agrandar el recuadro 100px para que no se deforme tanto al bajar */
     resize:vertical;
-   
+}
+button{
+    width: 8rem; /* tamaño */
+    background-color: #297A44;
+    color: white;
+    border: 1px solid  #85D6A0;
+/* LOs ultimos tres color, color letra y borde  */
+}
+::placeholder{
+color: whitesmoke;
 }
