@@ -64,3 +64,28 @@ button{
 ::placeholder{
 color: whitesmoke;
 }
+
+@media(max-width: 800px)
+/* responsive*/
+{
+    form{
+        width: 90%; /*+se ajusta al tamaño*/
+        padding: 2rem;  /* espacio interno */
+    }
+
+    h1{
+        font-size: 2.2rem;
+        /* tamaño letra  */
+    }
+
+    legend{
+        font-size: 1.4rem; /* tamaño letra  */
+    }
+
+    input, textarea{
+        font-size: 1.3rem;/* tamaño letra */
+    }
+
+    button{
+        width: 100%; /* botón ocupa todo el ancho */
+    }}

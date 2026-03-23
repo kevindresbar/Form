@@ -33,3 +33,26 @@ article p {
     font-size: 3rem;
     line-height: 1.5;/* Para que las líneas de texto no estén tan pegadas */
 }
+@media(max-width: 500px)
+/* Hace que sea responsi */
+{
+    main{
+        margin: 2rem; /* menos espacio lateral */
+    }
+
+    h1{
+        font-size: 3rem; /* más pequeño */
+    }
+
+    article{
+        padding: 1.5rem;
+    }
+
+    article h2{
+        font-size: 2.5rem;
+    }
+
+    article p{
+        font-size: 1.8rem;
+    }
+}
